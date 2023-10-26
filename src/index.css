@@ -222,6 +222,24 @@ Menu
   margin-bottom: 0;
   padding-top: 1rem;
 }
+@media screen and (min-width: 300px) {
+  .menu-item {
+    grid-template-columns: 225px 1fr;
+    gap: 0 1.25rem;
+    max-width: 40rem;
+  }
+  .photo {
+    height: 175px;
+  }
+  .img {
+    display: block;
+
+    height: 30%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .menu-item {
@@ -235,8 +253,8 @@ Menu
   .img {
     display: block;
 
-    height: 100px;
-    width: 100px;
+    height: 30%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
   }
