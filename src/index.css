@@ -241,24 +241,7 @@ Menu
     margin-right: auto;
   }
 }
-@media screen and (min-width: 300px) {
-  .menu-item {
-    grid-template-columns: 150px 1fr;
-    gap: 0 1rem;
-    max-width: 20rem;
-  }
-  .photo {
-    height: 175px;
-  }
-  .img {
-    display: block;
 
-    height: 30%;
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media screen and (min-width: 1200px) {
   .section-center {
     width: 95vw;
