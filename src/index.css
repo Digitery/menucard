@@ -224,9 +224,9 @@ Menu
 }
 @media screen and (min-width: 300px) {
   .menu-item {
-    grid-template-columns: 225px 1fr;
+    grid-template-columns: 175px 1fr;
     gap: 0 1rem;
-    max-width: 30rem;
+    max-width: 20rem;
   }
   .photo {
     height: 175px;
