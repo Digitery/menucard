@@ -235,8 +235,8 @@ Menu
   .img {
     display: block;
 
-    height: 5%;
-    width: 5%;
+    height: 30%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -248,5 +248,13 @@ Menu
   }
   .photo {
     height: 150px;
+  }
+  .img {
+    display: block;
+
+    height: 30%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
